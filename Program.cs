@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using ArquivoCSV.Models;
 
 namespace ArquivoCSV;
@@ -29,3 +30,8 @@ public class Program
         }
     }
 }
+=======
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+Console.WriteLine("teste a Branch do github");
+>>>>>>> f682d58660477c39150e5d9ebcfcde2e40366243
