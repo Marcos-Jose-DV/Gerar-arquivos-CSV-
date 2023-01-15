@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 ﻿using ArquivoCSV.Models;
 
 namespace ArquivoCSV;
-
 public class Program
 {
     static void Main(string[] args)
@@ -12,7 +10,10 @@ public class Program
              new("Jonas Ramos diuasbdyiasbfyvaufvauysvfyavfuyavfuyavfu", "5599999999996", DateTime.Now.AddYears(-40)),
              new("Bruna Silva", "5599999999997", DateTime.Now.AddYears(-38)),
              new("Pedro Santos", "5599999999996", DateTime.Now.AddYears(-18)),
-          
+             new("Jonas Ramos diuasbdyiasbfyvaufvauysvfyavfuyavfuyavfu", "5599999999996", DateTime.Now.AddYears(-40)),
+             new("Bruna Silva", "5599999999997", DateTime.Now.AddYears(-38)),
+             new("Pedro Santos", "5599999999996", DateTime.Now.AddYears(-18))
+
         };
 
         var data = users.Select(users => (string)users);
@@ -30,8 +31,4 @@ public class Program
         }
     }
 }
-=======
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("teste a Branch do github");
->>>>>>> f682d58660477c39150e5d9ebcfcde2e40366243
+
